@@ -4,15 +4,17 @@ package com.example.shan.onlineorderapp;
  * Created by Shan on 27-Apr-16.
  */import android.content.Context;
 import android.database.Cursor;
-import android.support.design.widget.Snackbar;
 
-import androidx.appcompat.widget.RecyclerView;
 
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.snackbar.Snackbar;
 
 
 public class Order1Adpter extends RecyclerView.Adapter<Order1Adpter.ViewHolder> {

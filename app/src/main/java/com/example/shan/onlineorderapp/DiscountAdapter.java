@@ -1,12 +1,14 @@
 package com.example.shan.onlineorderapp;
 
 import android.content.Context;
-import android.support.design.widget.Snackbar;
-import androidx.appcompat.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * Created by Shan on 15-Feb-16.
