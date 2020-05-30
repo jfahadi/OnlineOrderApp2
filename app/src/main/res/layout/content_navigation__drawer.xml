@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shan.onlineorderapp.Navigation_Drawer"
+    tools:showIn="@layout/app_bar_navigation__drawer">
+
+
+    <androidx.appcompat.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="(c) 2016 Bam Shopping Center"
+        android:id="@+id/txtfooter"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:layout_alignBottom="@id/my_recycler_view"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

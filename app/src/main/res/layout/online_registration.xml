@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    tools:context=".Online_Registration"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/apple1"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP HERE"
+        android:textColor="@color/colorAccent"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nameregister"
+        android:layout_marginTop="6dp"
+        android:hint="Enter First Name " />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Nameregistertwo"
+            android:layout_marginTop="6dp"
+            android:hint="Enter Second Name " />
+
+
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nameregisterother"
+        android:hint="Enter Other Name"
+        android:layout_marginTop="6dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dateofbirth"
+            android:hint="Enter Date of Birth"
+            android:layout_marginTop="6dp"
+            android:inputType="date" />
+
+
+
+
+        <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sexspinner" />
+
+       <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signupbutton"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"
+        android:background="#0033FF"
+        android:textColor="#fbf5f5"
+        android:layout_marginTop="6dp"
+        android:onClick="OnsignUp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Already have account? login"
+        android:id="@+id/signup_question"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#f60505"
+        android:onClick="loginpage"
+        android:layout_marginTop="6dp" />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">OnlineOrderApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_add">Add to Cart</string>
+    <string name="title_activity_online__registration">Online_Registration</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_message">Message</string>
+    <string name="title_shopping">MY SHOPPING CART</string>
+    <string name="product_title_toolbar">Product Menu</string>
+    <string name="title_about">About App developers</string>
+    <!-- Strings related to Products -->
+    <string name="main_url">http://192.168.43.61/oos/</string>
+    <string name="image_url">http://192.168.43.61/oos/Pictures</string>
+    <string name="product_price">UGX 1200000</string>
+    <string name="price_label">Price</string>
+    <string name="description_label">DESCRIPTION</string>
+    <string name="product_title">Name</string>
+    <string name="cart">Add to shopping cart</string>
+    <string name="discount_label">Discount</string>
+    <string name="discount_offer">20% off</string>
+    <string name="latest_label">Latest</string>
+    <string name="product_cod">Product code</string>
+    <string name="product_menu">VIEW PRODUCT MENU</string>
+    <string name="product_menu_image_button">PRODUCT MENU</string>
+    <string name="category_electonics">Electronics</string>
+    <string name="category_header">Category</string>
+
+    <string name="add_suggest">Suggestion Tool</string>
+    <string name="add_title">Address</string>
+    <string name="nav_title">HOME</string>
+    <string name="title_contacts">Call Developers</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+
+    <string name="title_activity_login1">LoginActivity1</string>
+    <string name="refresh">Pull to Refresh Content</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_navigation__drawer">Navigation_Drawer</string>
+    <string name="home_product_image_button">product_menu_image_button</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_contact__us">Contact_UsActivity</string>
+    <string name="title_activity_send__message">Send_Message</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_address">Address</string>
+    <string name="title_activity_about__us">About_Us</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_shopping_cart">Shopping Cart</string>
+</resources>

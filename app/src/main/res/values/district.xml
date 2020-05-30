@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="district_array">
+        <item>Mbale</item>
+        <item>Kampala</item>
+        <item>Jinja</item>
+        <item>Masaka</item>
+
+    </string-array>
+</resources>
