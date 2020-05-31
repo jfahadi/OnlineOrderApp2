@@ -45,7 +45,7 @@ public class Contact_UsActivity extends AppCompatActivity {
 
     protected void callUs() {
         Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:0700697404"));
+        callIntent.setData(Uri.parse("tel:+256700697404"));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -65,7 +65,7 @@ public class Contact_UsActivity extends AppCompatActivity {
         Intent smsIntent = new Intent(Intent.ACTION_VIEW);
         smsIntent.setData(Uri.parse("smsto:"));
         smsIntent.setType("vnd.android-dir/mms-sms");
-        smsIntent.putExtra("address", new String("0700697404"));
+        smsIntent.putExtra("address", new String("+256700697404"));
         smsIntent.putExtra("sms_body","Test");
         try {
             startActivity(smsIntent);

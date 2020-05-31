@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 /**
- * Created by DevExpress on 3/26/2016.
+ * Created by DevExpress on 3/26/2020.
  */
 public class mobileConfig {
     public static String footer=Today();

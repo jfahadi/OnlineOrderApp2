@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.snackbar.Snackbar;
 
 /**
- * Created by Shan on 15-Feb-16.
+ * Created by Shan on 15-Feb-2020.
  */
 public class DiscountAdapter extends RecyclerView.Adapter<DiscountAdapter.ViewHolder> {
     public String[] mDataset;

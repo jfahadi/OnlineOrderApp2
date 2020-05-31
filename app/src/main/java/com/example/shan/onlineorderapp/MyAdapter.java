@@ -146,7 +146,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.item_code.setText(mDataset.getString(1));
         holder.title.setText(mDataset.getString(2));
         holder.quantity.setText(mDataset.getString(3));
-       String path =  "http://192.168.43.61/oos/Pictures/" + mDataset.getString(6);
+       String path =  "http://192.168.43.48/oos/Pictures/" + mDataset.getString(6);
         // holder.image
         Picasso.with(context).load(path)
                 .placeholder(R.drawable.ic_placeholder)

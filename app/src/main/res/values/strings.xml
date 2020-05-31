@@ -10,8 +10,8 @@
     <string name="product_title_toolbar">Product Menu</string>
     <string name="title_about">About App developers</string>
     <!-- Strings related to Products -->
-    <string name="main_url">http://192.168.43.61/oos/</string>
-    <string name="image_url">http://192.168.43.61/oos/Pictures</string>
+    <string name="main_url">http://192.168.43.48/oos/</string>
+    <string name="image_url">http://192.168.43.48/oos/Pictures</string>
     <string name="product_price">UGX 1200000</string>
     <string name="price_label">Price</string>
     <string name="description_label">DESCRIPTION</string>

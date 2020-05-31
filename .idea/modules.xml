@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OnlineOrderApp.iml" filepath="$PROJECT_DIR$/.idea/modules/OnlineOrderApp.iml" group="OnlineOrderApp" />
       <module fileurl="file://$PROJECT_DIR$/OnlineOrderApp2.iml" filepath="$PROJECT_DIR$/OnlineOrderApp2.iml" group="OnlineOrderApp2" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="OnlineOrderApp2/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="OnlineOrderApp/app" />
     </modules>
   </component>
 </project>
