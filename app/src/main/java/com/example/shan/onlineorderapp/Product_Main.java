@@ -16,6 +16,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -58,6 +59,9 @@ public class Product_Main extends Fragment {
         LinearLayoutManager llm = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         rv = (RecyclerView) v.findViewById(R.id.my_recycler_view);
         rv.setLayoutManager(llm);
+       /* rv.setLayoutManager(
+                new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+        );*/
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         rv.setHasFixedSize(true); // to improve performance
 
