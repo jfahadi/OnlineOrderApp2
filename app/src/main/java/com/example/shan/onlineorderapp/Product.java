@@ -1,6 +1,5 @@
 package com.example.shan.onlineorderapp;
 
-import androidx.appcompat.widget.RecyclerView;
 
 /**
  * Created by Shan on 01-Apr-16.

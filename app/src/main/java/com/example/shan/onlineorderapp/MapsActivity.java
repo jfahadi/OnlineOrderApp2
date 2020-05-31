@@ -1,10 +1,11 @@
 package com.example.shan.onlineorderapp;
 
-import androidx.core.app.FragmentActivity;
 import android.os.Bundle;
 
 //import com.google.android.gms.location.places.Place;
 //import com.google.android.gms.location.places.ui.PlaceAutocomplete;
+import androidx.fragment.app.FragmentActivity;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
