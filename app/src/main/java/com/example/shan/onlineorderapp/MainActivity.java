@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         CoordinatorLayout.LayoutParams p = (CoordinatorLayout.LayoutParams) fab.getLayoutParams();
-      //  p.setBehavior(new ScrollAwareFABBehavior());
+        //p.setBehavior(new ScrollAwareFABBehavior());
         fab.setLayoutParams(p);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

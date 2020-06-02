@@ -38,7 +38,7 @@ public class Product_Main extends Fragment {
     SQLiteDatabase db;
     RequestDBHelper mDbHelper;
     private ProgressDialog progressDialog;
-    public   MyAdapter adapter;
+    public   MyAdapter myadapter;
     RecyclerView rv;
 
 
@@ -51,19 +51,22 @@ public class Product_Main extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        new FectchProducts().execute();
+        //new FectchProducts().execute();
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.product__main,container,false);
 
 
-        //LinearLayoutManager llm = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         rv = (RecyclerView) v.findViewById(R.id.my_recycler_view);
-       // rv.setLayoutManager(llm);
+       /* LinearLayoutManager llm = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
+
+        rv.setLayoutManager(llm);
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        rv.setHasFixedSize(true); // to improve performance*/
          rv.setLayoutManager(
                 new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
         );
-        //llm.setOrientation(LinearLayoutManager.VERTICAL);
-        rv.setHasFixedSize(true); // to improve performance
+        new FectchProducts().execute();
+
 
 
 
@@ -234,12 +237,11 @@ public class Product_Main extends Fragment {
         mDbHelper = new RequestDBHelper(getActivity());
          db = mDbHelper.getReadableDatabase();
         Cursor c = db.rawQuery(selectQuery, null);
-
         if (c.moveToFirst()){
             Log.d(LOG_TAG,"The Fakadiz kasa hazi data");
-            adapter=new MyAdapter(c);
-            rv.setAdapter(adapter);
-            adapter.notifyDataSetChanged();
+            myadapter=new MyAdapter(c);
+            rv.setAdapter(myadapter);
+            myadapter.notifyDataSetChanged();
 
         }else {
             Log.d(LOG_TAG,"The Fakadiz kasa hazi not data");

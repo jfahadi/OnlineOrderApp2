@@ -36,6 +36,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="Fahadi"
         android:id="@+id/Nameregister"
         android:layout_marginTop="6dp"
         android:hint="Enter First Name " />

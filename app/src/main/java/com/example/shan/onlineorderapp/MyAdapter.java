@@ -21,7 +21,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.squareup.picasso.Picasso;
 
 /**
- * Created by Shan on 11-Feb-16.
+ * Created by Shan on 11-Feb-20.
  */
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
@@ -131,10 +131,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
     @Override
     public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View cardview = LayoutInflater.from(parent.getContext())
+        View productcardview = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.card_view, parent, false);
 
-         return new ViewHolder(cardview);
+         return new ViewHolder(productcardview);
 
     }
 
@@ -166,6 +166,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
+
     }
 
 }
