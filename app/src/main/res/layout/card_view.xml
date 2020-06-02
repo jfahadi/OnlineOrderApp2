@@ -4,7 +4,7 @@
 
     >
 
-    <androidx.appcompat.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -182,5 +182,5 @@
         </RelativeLayout>
 
 
-    </androidx.appcompat.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 </LinearLayout>

@@ -56,13 +56,13 @@ public class Product_Main extends Fragment {
         View v = inflater.inflate(R.layout.product__main,container,false);
 
 
-        LinearLayoutManager llm = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
+        //LinearLayoutManager llm = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         rv = (RecyclerView) v.findViewById(R.id.my_recycler_view);
-        rv.setLayoutManager(llm);
-       /* rv.setLayoutManager(
+       // rv.setLayoutManager(llm);
+         rv.setLayoutManager(
                 new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
-        );*/
-        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        );
+        //llm.setOrientation(LinearLayoutManager.VERTICAL);
         rv.setHasFixedSize(true); // to improve performance
 
 
